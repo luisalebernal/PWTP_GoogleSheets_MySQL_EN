@@ -43,7 +43,7 @@ app.layout = dbc.Container([
     ]),
     dbc.Row([
         dbc.Col(html.H1(
-            "Data Entry - Google Sheets to MYSQL in the Cloud - CL-800C Clarifier - Barrancabermeja Refinery",
+            "Data Entry - Google Sheets to MySQL in the Cloud - CL-800C Clarifier - Barrancabermeja Refinery",
             style={'textAlign': 'center', 'color': '#082255', 'font-family': "Franklin Gothic"}), width=12, )
     ]),
     dbc.Row([
@@ -51,7 +51,7 @@ app.layout = dbc.Container([
             dbc.Accordion([
                 dbc.AccordionItem([
                     html.H5([
-                                'The following app sends the data from a google shhets file to MySQL cloud databases located at Clever Console and Railway'])
+                                'The following app sends the data from a google sheets file to MySQL cloud databases located at Clever Console and Railway'])
 
                 ], title="Introduction"),
             ], start_collapsed=True, style={'textAlign': 'left', 'color': '#082255', 'font-family': "Franklin Gothic"}),
